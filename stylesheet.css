@@ -1,0 +1,449 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #1A85C9;
+    background-image: url(images/background2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+#container {
+    width: 960px;
+    margin: 0px auto;
+    background-color: black;
+    font-family: 'Palatino Linotype', Georgia, serif;
+    /*padding-bottom: 5px;*/
+}
+#header-nav {
+    padding: 10px;
+    background-color: black;
+    height: 80px;
+}
+.header-img {
+    width: 192px;
+    height: 70px;
+    background-color: black;
+    margin: 5px 0px 0px 5px;
+}
+#horizontal-nav {
+    background-color: black;
+    padding: 10px;
+    font-size: 0.750em;
+    float: right;
+}
+#horizontal-nav-pg {
+    background-color: #1A85C9;
+    padding: 10px;
+    font-size: 0.750em;
+    margin: 2px auto;
+    align-content: center;
+    display: inline-block;
+}
+#horizontal-nav ul, #horizontal-nav-pg ul {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+}
+#horizontal-nav li, #horizontal-nav-pg li {
+    float: left;
+}
+#horizontal-nav a:link, a:visited {
+    display: block;
+    width: 115px;
+    background-color: #1A85C9;
+    border: 2px solid silver;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 11px 0px;
+    margin: 10px 0px;
+}
+#horizontal-nav-pg a:link, a:visited {
+    display: block;
+    width: 120px;
+    background-color: #1A85C9;
+    border: 2px solid silver;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 11px 0px;
+    margin: 10px 0px;
+}
+#horizontal-nav a:hover, #horizontal-nav-pg a:hover {
+    background-color: silver;
+    color: black;
+}
+#horizontal-nav a:active, #horizontal-nav-pg a:active {
+    background-color: silver;
+    color: black;
+    border: 2px solid black;
+}
+#content {
+    background-color: #1A85C9;
+    border: 2px solid black;
+    border-top: none;
+    padding: 10px 10px 20px 10px;
+    /*border-bottom: none;*/
+}
+table {
+    width: 900px;
+    align-content: center;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+.schedule {
+    background-color: silver;
+    border: 1px solid black;
+}
+caption {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 10px;
+    font-size: 1.05em;
+    font-weight: bold;
+}
+.whitejersey {
+    background-color: #ffffff;
+    border: 1px solid black;
+    color: #1A85C9;
+}
+.blackjersey {
+    background-color: #000000;
+    border: 1px solid silver;
+    color: #1A85C9;
+}
+.bluejersey {
+    background-color: #1A85C9;
+    border: 1px solid black;
+    color: black;
+}
+.colorrush {
+    background-color: #1A85C9;
+    border: 1px solid #1A85C9;
+    color: black;
+}
+.bold {
+    font-weight: bold;
+}
+.postseason {
+    background-color: silver;
+    border: 1px double black;
+}
+.win {
+    background-color: #ccffcc;
+}
+.loss {
+    background-color: #ffcccc;
+}
+th, td {
+    text-align: center;
+    padding: 3.5px;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+}
+a:hover {
+    color: grey;
+}
+a:active {
+    color: #1A85C9;
+}
+fieldset {
+    width: 640px;
+    align-content: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: #1A85C9;
+    padding: 5px;
+}
+legend {
+    margin-left: 5px;
+}
+.fieldset-line {
+    line-height: 1.5em;
+}
+.jersey-legend-table {
+    width: 640px;
+    align-content: left;
+    font-size: 0.8em;
+    border: 1px solid black;
+    background-color: white;
+    padding: 2px;
+}
+#legend-color {
+    width: 20px;
+}
+.fieldset-text {
+    text-align: left;
+}
+h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 2px;
+}
+#Active_Roster, #Reserve_Injured, #Practice_Squad, #Stat_Leaders, #Team_Stats {
+    font-size: 0.8em;
+    background-color: silver;
+    border: 2px solid black;
+}
+#Stat_Leaders, #Team_Stats {
+    border-collapse: collapse;
+}
+#Active_Roster td, #Reserve_Injured td, #Practice_Squad td, #Active_Roster th, #Reserve_Injured th, #Practice_Squad th {
+    background-color: #1A85C9;
+}
+#Active_Roster td:hover, #Reserve_Injured td:hover, #Practice_Squad td:hover, #Active_Roster th:hover, #Reserve_Injured th:hover, #Practice_Squad th:hover {
+    background-color: silver;
+}
+.roster-cap {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.num-col {
+    width: 35px;
+}
+.name-col {
+    width: 200px;
+}
+.pos-col {
+    width: 70px;
+}
+.height-col {
+    width: 80px;
+}
+.weight-col {
+    width: 110px;
+}
+.age-col {
+    width: 50px;
+}
+.xp-col {
+    width: 70px;
+}
+.college-col {
+    width: 160px;
+}
+#footer {
+    text-align: center;
+    background-color: black;
+    margin: 10px;
+    height: 40px;
+    border: 2px solid black;
+    clear: both;
+}
+.footer-text {
+    color: #1A85C9;
+    font-size: 16px;
+    margin: 5px auto;
+}
+#Team_Stats {
+    text-align: left;
+}
+#personal-contact {
+    height: 620px;
+    width: 460px;
+    border: 2px solid gray;
+    border-right: none;
+    padding: 10px 7.5px 5px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    background-color: black;
+    color: #1A85C9;
+    float: left;
+}
+#panthers-contact {
+    height: 620px;
+    width: 460px;
+    border: 2px solid gray;
+    border-left: none;
+    padding: 10px 7.5px 5px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+    background-color: black;
+    color: #1A85C9;
+    float: right;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 2px;
+    display: inline-block;
+    border: 2px solid black;
+    background-color: silver;
+    border-radius: 5px;
+    font-family: "Palatino Linotype", serif;
+    box-sizing: border-box;
+}
+input[type=text]:focus, textarea:focus {
+    border: 3px solid black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+input[type=submit] {
+    width: 20%;
+    background-color: #1A85C9;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    font-family: "Palatino Linotype", serif;
+}
+input[type=submit]:hover {
+    background-color: silver;
+}
+.personal-contact {
+    border-radius: 5px;
+    background-color: #1A85C9;
+    color: black;
+    padding: 15px;
+}
+textarea {
+    width: 100%;
+    height: 175px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    resize: none;
+}
+.panthers-info {
+    text-align: left;
+    font-size: 16px;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+h4 {
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.email {
+    color: #1A85C9;
+}
+.opaque-hover {
+    width: 210px;
+    height: 210px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    align-content: center;
+}
+.opaque-hover:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 2px;
+}
+.para-text {
+    text-indent: 50px;
+    line-height: 30px;
+}
+.back-to-top {
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 5px;
+    margin-bottom: -3px;
+}
+.figure-left {
+    display: inline-block;
+    margin: 5px 10px 5px 0px;
+    float: left;
+}
+.slabo {
+    font-family: 'Slabo 27px', 'Palatino Linotype', serif;
+}
+.slabo-head {
+    font-size: 25px;
+}
+.jerry {
+    margin-top: 0px;
+}
+#Logo, #Jerseys, #BoAStadium, #SirPurr, #KeepPounding, #Cam, #Luke, #Steve, #Sam {
+    margin-top: 5px;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    text-align: center;
+    margin-top: 2px;
+    font-size: 0.9em;
+}
+.figure-right {
+    display: inline-block;
+    margin: 5px 0px 5px 10px;
+    float: right;
+}
+#Origins, #FirstYears, #JohnFox, #NewtonRivera, #Logo, #Jerseys, #BoAStadium, #SirPurr, #KeepPounding, #Current, #Former {
+    margin-top: 5px;
+}
+.italic {
+    font-style: italic;
+}
+.center {
+    align-content: center;
+    margin: 5px auto;
+}
+.lol {
+    color: silver;
+}
+.other {
+    display: inline-block;
+    margin: 5px;
+}
+.other img {
+    vertical-align: top;
+}
+.other figcaption {
+    text-align: center;
+}
+.key-img-other {
+    height: 200px;
+}
+.vid {
+    align-content: center;
+}
+#big-box, .smol {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 24px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.big-pic {
+    margin-top: 50px;
+}
+.smol {
+    height: 138px;
+    width: 210px;
+    display: inline-block;
+    margin: 8px 8.5px;
+}
+/*.leftie {
+    margin-left: 20px;
+}*/
